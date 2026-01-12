@@ -1,4 +1,4 @@
-class Solution:
+  class Solution:
     # with TLE error
     def isSorted(self, arr) -> bool:
         n=len(arr)
