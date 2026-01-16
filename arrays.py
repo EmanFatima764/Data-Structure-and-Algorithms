@@ -1,5 +1,5 @@
   class Solution:
-    # with TLE error
+     # with TLE error
     def isSorted(self, arr) -> bool:
         n=len(arr)
         if n<=1:
