@@ -4,6 +4,7 @@
 #          1 if num is lower than the picked number
 #          otherwise return 0
 # def guess(num: int) -> int:
+
 PICKED_NUMBER = 6   # change this value to test
 def guess(num: int) -> int:
     if num > PICKED_NUMBER:
