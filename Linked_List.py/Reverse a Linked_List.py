@@ -6,19 +6,24 @@
 class ListNode:
     def __init__ (self,val=0 , next=None):
         self.val=val
-        self.next=nexta
+        self.next=next
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseList(self, head:[ListNode]) -> [ListNode]:
+        temp=head
+        stack=[]
         if head is None or head.next is None:  # Base case
             return head
         # Recursive call
-        new_head=self.reverseList(head.next) 
-        # give address of node to currentnode  
-        head.next.next=head
-        # give None to current.next to stop cycle
-        head.next=None
-        
-        return new_head
+        while temp is not None:
+            stack.append(temp.val)
+            temp=temp.val
+        temp=head 
+        while temp is not None:
+            e=stack.pop()
+            temp.val=e
+            temp=temp.next
+        return head
+
 if __name__ =="__main__":
     sol=Solution()
     head = [1,2,3,4,5]

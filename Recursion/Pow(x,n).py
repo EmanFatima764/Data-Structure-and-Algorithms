@@ -7,7 +7,9 @@ class Solution:
         if n<0:       
             return 1 / self.myPow(x,-n)
 
-         # to improve effeciency divide power into half
+         # to  improve effeciency divide power into half
+
+
 
         half = self.myPow(x , n//2)  
         # if n is even
