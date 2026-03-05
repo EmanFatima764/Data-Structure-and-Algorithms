@@ -24,7 +24,6 @@ class Solution:
                     right-=1
                 # if sum is 0 then add into list 
                 else :
-
                     res.append([nums[i] ,nums[left],nums[right]])
                     # skip duplicates
                     while left <right and nums[left]==nums[left+1]:
