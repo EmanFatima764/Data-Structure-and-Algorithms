@@ -1,9 +1,7 @@
 from typing import List
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-
         # Kadanes Algorithm
-
         n=len(nums)
         maxim=float("-inf")   # in case of negative numbers
         total=0
