@@ -10,6 +10,7 @@ class Solution:
              j+=1
              nums[j]=nums[i]
         return j+1
+
 if __name__ =="__main__":
     sol=Solution()
     nums=[1,1,2]
