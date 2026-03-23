@@ -11,6 +11,9 @@ class Solution:
         for k,v in freq.items():    # iterate through dictionary
             if v==0:                  
                 return k              # return key which is not present in nums
+
+
+
 if __name__ == "__main__":
     sol=Solution()
     nums=[3,0,1]
