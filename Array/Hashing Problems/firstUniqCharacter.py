@@ -5,6 +5,7 @@ class Solution:
         # count frequency of each char
         hash_map={}
         for i in range(len(s)):
+            
             hash_map[s[i]]= hash_map.get(s[i],0)+1
         
         # find first non repeating char
