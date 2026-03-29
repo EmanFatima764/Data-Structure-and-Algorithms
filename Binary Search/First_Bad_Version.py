@@ -2,6 +2,7 @@
 # def isBadVersion(version: int) -> bool:
 
 def isBadVersion(version):
+    
     return version>=4
     
 class Solution:
