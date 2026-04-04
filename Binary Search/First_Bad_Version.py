@@ -2,9 +2,7 @@
 # def isBadVersion(version: int) -> bool:
 
 def isBadVersion(version):
-    
-    return version>=4
-    
+    return version>=4 
 class Solution:
     def firstBadVersion(self, n: int) -> int:
 
